@@ -1,0 +1,40 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* header section start */
+.header {
+  background-image: url("../images/Banner\ Image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  background-position: center;
+  margin: 50px 90px 0 90px;
+  border-radius: 16px;
+}
+.banner-content {
+  background: linear-gradient(180deg, #070211, rgba(7, 2, 17, 0));
+  border-radius: 16px;
+}
+.banner-content .mini-title {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 400;
+  text-align: center;
+}
+.title {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 95px;
+  max-width: 600px;
+  text-align: center;
+}
+.banner-content {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
