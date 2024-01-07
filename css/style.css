@@ -108,3 +108,42 @@
 .party-img {
   margin: 65px 130px 65px 0;
 }
+/* our portfolio  */
+.portfolio {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+.portfolio-content {
+  color: #f00;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.portfolio-title {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.portfolio-des {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  width: 850px;
+}
+.my-project {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-top: 24px;
+}
+.my-project div {
+  width: 380px;
+}
+.my-project img {
+  width: 100%;
+}
+.radius {
+  border-radius: 16px;
+}
