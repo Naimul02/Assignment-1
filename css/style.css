@@ -148,6 +148,7 @@
 }
 .radius {
   border-radius: 16px;
+  position: relative;
 }
 /* subscribe */
 .newsletter {
@@ -208,4 +209,93 @@
   font-weight: 600;
   border-radius: 0 50px 50px 0;
   margin-left: -3px;
+}
+
+/* footer */
+.footer {
+  height: 360px;
+  background-color: #070211;
+  padding: 120px 140px;
+}
+.footer-title {
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  max-width: 370px;
+}
+.footer-content-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.images-icon {
+  display: flex;
+  justify-content: center;
+  padding: 45px;
+}
+.images-icon a {
+  margin-right: 24px;
+}
+.reserved {
+  font-size: 24px;
+  font-weight: 500px;
+  color: white;
+}
+.reserved-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.mr {
+  margin-right: 10px;
+}
+/* comming soon section */
+.comming-soon {
+  max-width: 1150px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.comming-soon-des {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  width: 380px;
+}
+.new-year-title {
+  color: #f00;
+  font-size: 48px;
+  font-weight: 700;
+}
+.new-year-des {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  width: 270px;
+  margin-bottom: 43px;
+  margin-top: 10px;
+}
+.img-border {
+  border: 10px solid #f00;
+  border-radius: 100%;
+  padding: 20px;
+}
+.hover-effect {
+  text-align: center;
+  background: linear-gradient(90deg, orange, rgb(209, 141, 152));
+  color: white;
+  padding: 20px 0;
+  border-radius: 16px;
+  display: none;
+}
+.radius:hover .hover-effect {
+  display: block;
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+  cursor: pointer;
 }
